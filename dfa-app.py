@@ -9,7 +9,7 @@ r2 = "RegEx 2. (1+0)*0*1*(111+00+101)(1+0)*(101+01+000)(1+0)*(101+000)*"
 
 # Use the full page 
 st.set_page_config(layout="wide")
-st.title("Deterministic Finite Automaton (DFA) and Pushdown Automaton (PDA) Simulator")
+st.title("Deterministic Finite Automaton (DFA) Simulator with Push Down Automata")
 
 # Divide page by columns of equal size
 c1, c2, c3, c4 = st.columns(4)
