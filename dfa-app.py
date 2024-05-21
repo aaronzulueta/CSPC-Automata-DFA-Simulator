@@ -57,14 +57,16 @@ if user_choice == r1:
         # Add CFG within an expander
         my_expander = st.expander("Expand", expanded=True)
         with my_expander:
-            st.write("S → ABCDEFBGB")
+            st.write("S → ABCDEFGHDID")
             st.write("A → bab | bbb")
-            st.write("B → bB | aB | λ")
-            st.write("C → abC | λ") 
-            st.write("D → aba")
-            st.write("E → babE | abaE | λ")
-            st.write("F → bb")
-            st.write("G → bab | aba")
+            st.write("B → bB | λ")
+            st.write("C → aC | λ") 
+            st.write("D → aD | bD | λ")
+            st.write("E → abE | λ")
+            st.write("F → aba")
+            st.write("G → babG | abaG | λ")
+            st.write("H → bb")
+            st.write("I → bab | aba")
   
 if user_choice == r2:
     dfa = VisualDFA(
